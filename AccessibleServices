@@ -1,0 +1,283 @@
+return {
+	
+	AdService = "A class that allows the display of mobile video ads.",
+
+	AnalyticsService = "Collection of methods that allows developers to track how users interact with their experiences.",
+
+	AnimationClipProvider = "Provides functions to load and preview `AnimationClip`.",
+
+	AnimationFromVideoCreatorService = "",
+
+	AssetDeliveryProxy = "",
+
+	AssetService = "A non-replicated service that handles asset-related queries to the Roblox web API.",
+
+	AvatarCreationService = "A service to support developer avatar creators.",
+
+	AvatarEditorService = "A service to support developer Avatar Editors.",
+
+	BadgeService = "Provides information on badges and awards them.",
+
+	BrowserService = "",
+
+	CaptureService = "A service which provides control over screenshot and video capture features.",
+
+	ChangeHistoryService = "Must be used by plugins to communicate to Studio how to undo and redo the changes which they make to the experience.",
+
+	Chat = "Houses the Luau code responsible for running the legacy chat system.",
+
+	ClusterPacketCache = "An internal service meant to cache cluster packets.",
+
+	CollectionService = "A service which manages instance collections using assigned tags.",
+
+	CommerceService = "Supports real-world purchases that you can bundle with digital benefits.",
+
+	ConfigService = "",
+
+	ConfigureServerService = "",
+
+	ContentProvider = "Service that is used to load content, or assets, into a game.",
+
+	ContextActionService = "A service used to bind user input to contextual actions.",
+
+	ControllerService = "Container class for the `HumanoidController` among other classes.",
+
+	CookiesService = "A backend service used by Roblox to control HTTP cookies. Its functions are not available to developers.",
+
+	CoreScriptDebuggingManagerHelper = "",
+
+	CreatorStoreService = "",
+
+	DataStoreService = "A game service that gives access to persistent data storage across places in a game.",
+
+	Debris = "Allows scheduling the guaranteed destruction of an object without yielding. .",
+
+	EncodingService = "Service providing common encoding, hashing, and compression methods.",
+
+	ExperienceNotificationService = "Service containing methods to validate users and prompt them to enable experience notifications.",
+
+	FeatureRestrictionManager = "",
+
+	FriendService = "An internal service which is used to send, cancel, accept and decline connection requests in-game.",
+
+	GamePassService = "A service associated with the legacy game pass system. Use `MarketplaceService` for all new work.",
+
+	GamepadService = "The GamepadService is internally responsible for handling inputs from various controllers, such as Xbox One or PlayStation DualShock controllers.",
+
+	GenerationService = "Service that allows developers to generate 3D objects from text prompts.",
+
+	GenericChallengeService = "",
+
+	Geometry = "An internal Roblox service which cannot be used by developers.",
+
+	GeometryService = "Service containing geometric operations.",
+
+	GroupService = "GroupService is a service that allows developers to fetch information about a Roblox group from within a game.",
+
+	GuiService = "Offers numerous properties and methods for working with `GuiObject`, player preferences, and other UI‑related tasks.",
+
+	GuidRegistryService = "An internal service, whose functionality is not accessible to developers.",
+
+	HSRDataContentProvider = "",
+
+	HapticService = "Provides haptic feedback to controllers and devices.",
+
+	HeapProfilerService = "",
+
+	HeightmapImporterService = "",
+
+	HttpRbxApiService = "An internal service whose functionality is not available to developers.",
+
+	HttpService = "Allows sending HTTP requests and provides various web-related and JSON methods.",
+
+	IncrementalPatchBuilder = "",
+
+	InsertService = "Used to insert assets from the Roblox website.",
+
+	InstanceExtensionsService = "",
+
+	JointsService = "A service that stores joints created by surface connections.",
+
+	KeyboardService = "",
+
+	KeyframeSequenceProvider = "Provides functions to load and preview `KeyframeSequence`.",
+
+	Lighting = "The `Lighting` service controls global lighting in an experience. It includes a range of adjustable properties that you can use to change how lighting appears and interacts with other objects.",
+
+	LocalizationService = "Handles automated translation.",
+
+	LogService = "A service that allows you to read outputted text.",
+
+	LuaWebService = "An internal service, which is responsible for retrieving HTTP data from websites. Used by a range of services, including `MarketplaceService`, `InsertService` and `HttpService`. Its functions cannot be accessed by developers.",
+
+	MLService = "",
+
+	MarketplaceService = "The service responsible for in-experience transactions.",
+
+	MatchmakingService = "The service responsible for managing custom matchmaking data.",
+
+	MaterialService = "The game service responsible for managing materials.",
+
+	MemStorageService = "",
+
+	MemoryStoreService = "Exposes methods to access specific primitives within MemoryStore.",
+
+	MeshContentProvider = "An internal Roblox service that is responsible for fetching, parsing and caching meshes. This service cannot be used by developers.",
+
+	MessagingService = "Allows servers of the same experience to communicate with each other.",
+
+	MicroProfilerService = "",
+
+	ModerationService = "",
+
+	MouseService = "",
+
+	NetworkServer = "",
+
+	NotificationService = "An internal service which cannot be used by developers.",
+
+	OpenCloudService = "",
+
+	PackageService = "",
+
+	PathfindingService = "Used to find logical paths between two points.",
+
+	PermissionsService = "",
+
+	PhysicsService = "",
+
+	PlacesService = "",
+
+	PlayerDataService = "",
+
+	PlayerViewService = "Provides a way to get additional information about a player's view.",
+
+	Players = "A service that contains presently connected `Player` objects.",
+
+	PluginManagementService = "",
+
+	PointsService = "This service controls the points award system used to showcase a player's achievements and participation throughout Roblox.",
+
+	PolicyService = "Helps you query information regarding policy compliance for players around the world based on age range, location, and platform type.",
+
+	ProcessInstancePhysicsService = "",
+
+	ProximityPromptService = "Allows developers to interact with `ProximityPrompt` objects in a global way.",
+
+	PublishService = "",
+
+	RecommendationService = "A service that provides an interface for you to manage and display personalized content recommendations.",
+
+	ReflectionService = "",
+
+	RemoteCommandService = "",
+
+	RemoteDebuggerServer = "",
+
+	ReplicatedFirst = "A container whose contents are replicated to all clients (but not back to the server) first before anything else.",
+
+	ReplicatedStorage = "A container service for objects that are replicated to all clients.",
+
+	RunService = "Service responsible for all runtime activity and progression of time.",
+
+	ScriptContext = "",
+
+	ScriptProfilerService = "",
+
+	ScriptService = "An unimplemented service that has zero functionality, in a similar manner to the `LocalWorkspace` service.",
+
+	Selection = "The Selection service controls the `Instance` that are selected in Roblox Studio.",
+
+	SelectionHighlightManager = "",
+
+	SerializationService = "",
+
+	ServerScriptService = "A container service for server-only `Script` objects.",
+
+	ServerStorage = "A container whose contents are only accessible on the server. Objects descending from ServerStorage will not replicate to the client and will not be accessible from `LocalScript`.",
+
+	ServiceVisibilityService = "",
+
+	SessionCheckService = "",
+
+	SharedTableRegistry = "Provides a global registry of named `Datatype.SharedTable` objects.",
+
+	SlimContentProvider = "",
+
+	SmoothVoxelsUpgraderService = "",
+
+	SocialService = "Facilitates social functions that impact relationships made on the Roblox platform.",
+
+	SolidModelContentProvider = "An internal service which serves no functionality to developers.",
+
+	SoundService = "A service that determines various aspects of how `Sound` play in the experience.",
+
+	SpawnerService = "An internal service that is responsible for the behavior of `SpawnLocation`. Its functionality is not accessible to developers.",
+
+	StarterGui = "A container for `LayerCollector` objects to be copied into the `PlayerGui` of `Player`. Also provides a range of functions for interacting with the `CoreGui`.",
+
+	StarterPack = "A service-level container whose contents are copied into each player's `Backpack` when the player spawns. It is generally used to hold `Tools`, but is sometimes used to hold `LocalScript|LocalScripts` to ensure that each player gets a copy.",
+
+	StarterPlayer = "A service which allows the defaults of properties in the `Player` object to be set.",
+
+	StartupMessageService = "",
+
+	Stats = "Performance metrics for a game.",
+
+	StylingService = "",
+
+	Teams = "The Teams service holds a game's `Team` objects. `Team` objects must be parented to the Teams service.",
+
+	TeleportService = "Enables transporting `Players` between places and servers.",
+
+	TestService = "A service used by Roblox to run controlled tests of the engine. It is available for developers to use, to a limited degree.",
+
+	TextBoxService = "",
+
+	TextChatService = "A service handling in-experience text chat.",
+
+	TextService = "The TextService is a service internally responsible for handling the display of text in the game.",
+
+	TimerService = "An internal service responsible for scheduling timed events. It is used by the `Debris` class. Its functionality can not be accessed by developers.",
+
+	TouchInputService = "An internal service responsible for touch inputs on mobile devices.",
+
+	TweenService = "Used to create `Tween` which interpolate, or tween, the properties of instances.",
+
+	UGCValidationService = "",
+
+	UIDragDetectorService = "",
+
+	UniqueIdLookupService = "",
+
+	UserInputService = "`UserInputService` is primarily used to detect the input types available on a user's device, as well as detect input events.",
+
+	UserService = "A service that handles queries regarding users on the Roblox platform.",
+
+	VRService = "Service responsible for handling interactions between Roblox and Virtual Reality (VR).",
+
+	VRStatusService = "",
+
+	VideoCaptureService = "",
+
+	VideoScreenCaptureService = "",
+
+	VideoService = "An internal service that offers no functionality to developers.",
+
+	VirtualInputManager = "An internal service that offers no functionality to developers.",
+
+	VirtualUser = "VirtualUser is a service that allows you to record the inputs of a user, and then play it back to a limited extent.",
+
+	VisibilityCheckDispatcher = "",
+
+	Visit = "The Visit service is a backend service used by Roblox. Its functions are not accessible to developers in any form.",
+
+	VisualizationModeService = "",
+
+	VoiceChatInternal = "",
+
+	VoiceChatService = "VoiceChatService is responsible for voice chat's high-level functionality.",
+
+	Workspace = "Workspace houses 3D objects which are rendered to the 3D world. Objects not descending from it will not be rendered or physically interact with the world.",
+
+}
